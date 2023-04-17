@@ -1,0 +1,33 @@
+section {
+    max-width: 120rem;
+    width: 95%;
+    margin: 1rem auto;
+    height: auto;
+
+
+    .gifs-container {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        
+
+        @media (min-width: 768px) {
+            grid-template-columns: repeat(3, 1fr);
+            
+            img {
+                height: 20rem;
+            }
+        }
+
+        @media (min-width: 992px) {
+            grid-template-columns: repeat(5, 1fr);
+        }
+
+        img {
+            height: 15rem;
+            width: 100%;
+            position: relative;
+        }
+    }
+}

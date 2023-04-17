@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GifApp</title>
+    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSLLCByOxqbvSPV02B_v_5eVKNxvatMFQzJg&usqp=CAU" />
+</head>
+
+<body>
+    <main id="root">
+        <header class="header">
+            <h1>Search for a Gif</h1>
+
+            <form id="form">
+                    <input type="text" id="input" >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="36"
+                        height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round" style="margin-right: 1rem;">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <circle cx="10" cy="10" r="7" />
+                        <line x1="21" y1="21" x2="15" y2="15" />
+                    </svg>
+            </form>
+
+        </header>
+
+        <section id="section">
+            <div class="gifs-container" id="gifs-container" style="display: flex; justify-content: center; align-items: center; height: 50vh;">
+                <img src="https://i.gifer.com/17xo.gif" alt="cat gif" style="width: 20rem; height: 10rem;">
+            </div>
+        </section>
+
+        <footer>
+            <p>Made by <code>&lt;Ferney Baron/&gt;</code></p>
+        </footer>
+
+    </main>
+
+    <script src="build/js/app.js"></script>
+</body>
+
+</html>
